@@ -1,0 +1,13 @@
+body{
+ background-color: black;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 15px;
+ text-align: center;
+ color: red;
+}
+label{
+    display: inline;
+    margin-top: 5px;
+    margin-bottom: 5px;
+   
+}

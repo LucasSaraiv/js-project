@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.container.red{
+    background-color: red;
+    border: 2px solid black;
+    color: white;
+}
+
+.container.green{
+    background-color: green;
+    color: black;
+}

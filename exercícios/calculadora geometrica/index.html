@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora geométrica</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/abf3081cb6.js" crossorigin="anonymous" refer></script> 
+</head>
+<body class="body">
+    <i class="fa-solid fa-sun"></i>
+    <i class="fa-solid fa-moon"></i>
+
+<div class="container">
+    <h1>Calculadora geométrica</h1>
+    <div class="figuras">
+
+        <div class="triangulo">
+            <h3>triângulo</h3>
+            <label for="base">Base:</label>
+            <input type="number" id="basetringulo">
+            <label for="altura">Altura</label>
+            <input type="number" id="alturatringulo">
+            <div class="resultado" id="resultTrinagulo"><!-- digiv que recebe o resultado --></div>
+
+            
+            <button id="calculatriangulo">calcular</button>
+            <button id="limparTrinagulo">Limpar</button>
+        </div>
+
+        <div class="retangulo">
+            <h3>retângulo</h3>
+            <label for="base" >Base:</label>
+            <input type="number" id="baseRetangulo">
+            <label for="altura">Altura</label>
+            <input type="number" id="alturaRetangulo ">
+            <div class="resultado" id="resultadoRetangulo"><!-- div que recebe o resultado --></div>
+            <button id="calcularRetangulo">calcular</button>
+            <button id="limparRetangulo">Limpar</button>
+        </div>
+
+        <div class="quadrado">
+            <h3>quadrado</h3>
+            <label for="lado">Lado</label>
+            <input type="number" id="lado">
+            <div class="resultado" id="resultadoQuadrado"><!-- div que recebe o resultado --></div>
+            <button id = "calcularQuadrado">calcular</button>
+            <button id="limparQuadrado">Limpar</button>
+        </div>
+
+        <div class="trapezio">
+            <h3>Trapézio</h3>
+            <label for="basemaior">Base maior</label>
+            <input type="number" id="basemaior">
+
+            <label for="basemenor">Base menor</label>
+            <input type="number">
+
+            <label for="altura">altura</label>
+            <input type="number">
+            <div class="resultado"><!-- div que recebe o resultado --></div>
+            <button>calcular</button>
+            <button>Limpar</button>
+        </div>
+
+        <div class="cirbulo">
+            <h3>Círculo</h3>
+            <label for="raio">Raio:</label>
+            <input type="number">
+            <div class="resultado"><!-- div que recebe o resultado --></div>
+            <button>calcular</button>
+            <button>Limpar</button>
+        </div>
+    </div>
+</div>
+
+
+<script src="index.js"></script>
+</body>
+</html>

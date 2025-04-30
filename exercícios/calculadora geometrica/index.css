@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-sun{
+    font-size: 50px;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    cursor: pointer;
+    color: red;
+}
+
+.fa-moon{
+    font-size: 50px;
+    position: absolute;
+    top: 70px;
+    right: 50px;
+    cursor: pointer;
+    color: red;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border: solid 2px;
+    height: 700px;
+    width: 750px;
+}
+
+.container h1{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.figuras{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    padding: 0 40px;
+    height: 650px;
+    width: 740px;
+    gap: 50px;
+   
+}
+
+.figuras h3{
+    text-align: center;
+}
+
+.resultado{
+    border: 2px solid black;
+    height: 30px;
+    padding: 5px 10px;
+}
+.triangulo{
+    display: flex;
+    border: solid 1px black;
+    flex-direction: column;
+    height: 230px;
+    width: 200px;
+    gap: 5px;
+    padding: 10px ;
+}
+
+.retangulo{
+    display: flex;
+    border: solid 1px black;
+    flex-direction: column;
+    height: 230px;
+    width: 200px;
+    gap: 5px;
+    padding: 10px ;
+}
+
+.quadrado{
+    display: flex;
+    border: solid 1px black;
+    flex-direction: column;
+    height: 230px;
+    width: 200px;
+    gap: 5px;
+    padding: 10px ;
+}
+
+.trapezio{
+    display: flex;
+    border: solid 1px black;
+    flex-direction: column;
+    height: 280px;
+    width: 200px;
+    gap: 5px;
+    padding: 10px ;
+}
+
+.cirbulo{
+    display: flex;
+    border: solid 1px black;
+    flex-direction: column;
+    height: 280px;
+    width: 200px;
+    gap: 5px;
+    padding: 10px ;
+}
+
+.body.dark{
+    background-color: black;
+    border: solid 1px red;
+    color: white;
+}
+
+.body.light{
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+}
